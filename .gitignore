@@ -1,0 +1,16 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# Keep folder structure but don't commit empty or temporary files
+*.tmp
+*.bak
+
+# Nmap output can contain environment-specific information.
+# Review and sanitize before committing; do not blindly publish sensitive data.
+# Uncomment if you want to exclude raw outputs by default:
+# results/**/*.nmap
+# results/**/*.gnmap
+# results/**/*.xml
